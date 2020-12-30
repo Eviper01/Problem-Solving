@@ -1,5 +1,6 @@
 import numpy as np
 def prime_sieve(n):
+    primes = []
     numbers  = np.linspace(0,n,n+1).astype(int)
     for i in numbers:
         if i>1 and i not in primes:
